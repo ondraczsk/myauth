@@ -11,7 +11,7 @@ register-confirm-message: "&bRe-type your password to confirm registration"
 #No register permissions message
 no-register-permissions: "&cYou don't have permissions to register"
 #Login message
-login-message: "&7Type your password in chat to login"
+wrong-message: "&7Type your password in chat to login"
 #No login permissions message
 no-login-permissions: "&cYou don't have permissions to login"
 ...
