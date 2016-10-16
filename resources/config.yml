@@ -10,8 +10,12 @@ password-confirm-required: true
 register-confirm-message: "&bRe-type your password to confirm registration"
 #No register permissions message
 no-register-permissions: "&cYou don't have permissions to register"
-#Login message
+#Bad password message
 wrong-message: "&7Type your password in chat to login"
 #No login permissions message
 no-login-permissions: "&cYou don't have permissions to login"
+#Login message 1(before name of player)
+login1-message: "&9[MyAuth]&e Welcome,&9 "
+#Login message 2 (after name of player)
+login2-message: " &eon the server!"
 ...
