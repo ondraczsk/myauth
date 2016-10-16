@@ -48,7 +48,9 @@ class EventListener implements Listener {
 		if(!ServerAuth::getAPI()->isPlayerRegistered($player->getName())){
 			$player->sendMessage($this->plugin->translateColors("&", $prefix . $cfg["register-message"]));
 		}elseif(!ServerAuth::getAPI()->isPlayerAuthenticated($player)){
-			$player->sendMessage("§r§1====================§9===================\n  §lVitej, §9".$player->getName()." §fna §4You§fTube§7Craftu!\n§7§oا  Nelepší server podle České MC:PE Komunity!\n                    \n          §l§eLOGIN: §r§eNapis svoje heslo.\n          §l§aMAJITEL: §r§fONDRACZSK\n          §l§cWEB:§r§f Jiz brzy!\n          §l§6IP:§r§f 82.208.17.28:27826\n                         \n§r§9====================§1===================");
+			$player->sendMessage($this->plugin->translateColors("&", $prefix . $cfg["login1-message"]));
+			$player->sendMessage(".$player->getName().");
+			$player->sendMessage($this->plugin->translateColors("&", $prefix . $cfg["login2-message"]));
 		}
 	}
 	
