@@ -49,7 +49,7 @@ class EventListener implements Listener {
 			$player->sendMessage($this->plugin->translateColors("&", $prefix . $cfg["register-message"]));
 		}elseif(!ServerAuth::getAPI()->isPlayerAuthenticated($player)){
 			$player->sendMessage($this->plugin->translateColors("&", $prefix . $cfg["login1-message"]));
-			$player->sendMessage(".$player->getName().");
+			$player->sendMessage(" ".$player->getName()." ");
 			$player->sendMessage($this->plugin->translateColors("&", $prefix . $cfg["login2-message"]));
 		}
 	}
